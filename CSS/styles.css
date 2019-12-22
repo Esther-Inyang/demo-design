@@ -1,0 +1,223 @@
+  body {
+    background-color:rosybrown;
+    padding: 0;
+    margin: 0;
+}
+    p {
+        color:white;
+        text-shadow: 2px 3px black;
+        border: 2px 2px;
+        margin: 0px;
+        padding: 15px;
+        background-color:goldenrod;
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    } 
+
+    p:first-letter {
+        color: purple;
+        font-size: 60px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li  a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    } 
+    nav ul li a:hover {
+        background-color:purple;
+    }
+    li:last-child{
+        border-right: none;
+    }
+
+    .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    .dropdown{
+        display: inline-block;
+    }
+    .dropdown:hover .dropbtn{
+        background-color:purple;
+    }
+    .dropdown-content{
+        display:none;
+        position: absolute;
+        background-color: #f9f9f9;
+        right: 0; 
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdown-content a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown-content a:hover{background-color: #f1f1f1;}
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+
+    .clear {
+        clear: both;
+    }
+    
+    .backimg {
+        border: 2px solid black;
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .backimg img{
+        display: inline;
+        padding: 0;
+        margin: 0;
+        height: 300px;
+        width: 331px;
+    }
+    
+    h1 {
+        text-align: center;
+        text-shadow: 2px 2px white;
+        color: goldenrod;
+        font-size: 300%;
+        margin: 50px;
+        border-bottom: 3px dotted white;
+    }
+    .container {
+        display: flex;
+        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-bottom: 120px;
+    }
+
+    .img img{
+        width:150px;
+        height:100px;
+    }
+    .img {
+        margin:2px;
+        height: 200px;
+        width: 300px;
+        border-radius: 15px 15px;
+        border:2px solid yellow;
+        background-color: white;
+    }
+
+    .img:hover{
+        border:1px solid white;
+    }
+    .desc1 {
+        font-size: 18px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 15px 15px;
+        background-color: aquamarine;
+        color:rebeccapurple;
+    }
+    .desc2 {
+        font-size: 18px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 15px 15px;
+        background-color: pink;
+        color:green;
+    }
+    .desc3 {
+        font-size: 18px;
+        padding: 15px;
+        text-align: center;
+        border-radius: 15px 15px;
+        background-color:burlywood;
+        color:black;
+    }
+    
+    form.form1 {
+        color:purple;
+        font-size: 200%;
+        font-variant: small-caps;
+        text-shadow: 2px 1px black;
+
+    }
+    form.form2 {
+        color:green;
+        font-weight: bolder;
+        font-size: 200%;
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    form.form2:hover{
+        color:black;
+        font-weight:lighter;
+    }
+
+    div {
+        color:goldenrod;
+        font-weight: bolder;
+    }
+
+    .sidenav {
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    aside ul {
+        margin: 0;
+        padding:0;
+        border: 1px solid white;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: burlywood;
+    }
+    aside ul li {
+        list-style-type: none;
+        padding: 10px; 
+    }
+    aside ul li a {
+        color: white;
+        text-shadow: 2px 1px black;
+        padding: 20px;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    aside ul li a:hover {
+        color: black;
+        text-decoration: underline;
+        text-shadow: none;
+    }
+    address {
+        margin-left: 550px;
+        color:black; 
+        font-weight: bold; 
+        font-size:150%;
+    }
+
+    #footer{
+        color: white;
+        background-color: lightslategray;
+        padding: 1px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 120%;
+    }
+    /*THE END */
